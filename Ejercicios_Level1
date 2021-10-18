@@ -1,0 +1,20 @@
+package nombre;
+import java.util.Scanner;
+public class main {
+
+       public static void main(String[] args) {
+
+ Scanner teclado = new Scanner(System.in);
+
+ String nom;
+
+ int ed;
+
+ System.out.print(" Ingrese su nombre ");
+
+ nom = teclado.nextLine();
+
+ System.out.println( " Hola "+ nom +");
+
+ }
+}
