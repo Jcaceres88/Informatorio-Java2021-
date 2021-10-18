@@ -1,0 +1,22 @@
+public class OperacionesBasicas {
+
+ public static void main(String[] args) {
+  //Programa en Java que haga las 4 operaciones
+ 
+  String a = JOptionPane.showInputDialog(null, "Ingrese el primer número"); 
+  String b = JOptionPane.showInputDialog(null, "Ingrese el segundo número"); 
+  doble n1 = Double.parseDouble(a);
+  doble n2 = Double.parseDouble(b);
+  double suma = n1 + n2;
+  double resta = n1 - n2;
+  double mult = n1 * n2;
+  double div = n1 / n2;
+  JOptionPane.showMessageDialog(null, "Los resultados fueron: \n"
+     + "La suma fue: " + suma + "\n"
+     + "La resta fue: " + resta + "\n"
+     + "La multiplicación fue: " + mult + "\n"
+     + "La división fue: " + div);
+
+ }
+
+}
